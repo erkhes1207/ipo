@@ -1,0 +1,29 @@
+.navigation{
+    background-color: #563d7c;
+    display: flex;
+    color: #fff;
+    padding: 30px 60px;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    /* background: #000; */
+} 
+
+nav li{
+    list-style: none;    
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover{
+    color: yellow;
+    text-decoration: none;
+}
